@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class AuthData{
+public class AuthData {
     @JsonProperty("username")
     private String username;
     @JsonProperty("password")

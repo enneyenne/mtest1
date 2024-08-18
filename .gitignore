@@ -24,16 +24,14 @@ README.html
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
+.idea/shelf/
 *.iws
-*.iml
 *.ipr
+.allure
 
 ### Eclipse ###
 .apt_generated
-.classpath
 .factorypath
-.project
-.settings
 .springBeans
 .sts4-cache
 
@@ -57,3 +55,5 @@ buildNumber.properties
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+schema
+/*/allure-results/
